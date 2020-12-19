@@ -9,7 +9,7 @@ defmodule PwProject.Application do
 
     opts = [strategy: :one_for_one, name: PwProject.Supervisor]
 
-    Logger.info("Starting application...")
+    Logger.info("Starting application at http://127.0.0.1:#{cowboy_port()}... ")
 
     Supervisor.start_link(children, opts)
   end
