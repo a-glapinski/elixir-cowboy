@@ -1,3 +1,3 @@
 use Mix.Config
 
-config :example, cowboy_port: 8080
+config :pw_project, cowboy_port: 8080
