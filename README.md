@@ -1,6 +1,11 @@
 # PwProject
 
-**TODO: Add description**
+## How to run
+
+To run the server, use following command:
+```
+mix run --no-halt
+```
 
 ## Installation
 
